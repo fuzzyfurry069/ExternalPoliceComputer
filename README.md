@@ -34,3 +34,12 @@ A Police Computer Plugin and Server for LSPDFR.
 ## Discord Server
 - If you need support, have a suggestion or bug report, want to see what's coming in new versions or want to download custom files made by me
 - https://discord.gg/RW9uy3spVb
+
+## V3.0
+- Update General Look of the App
+- Update Arrest and Citation Options to be a bit more in depth
+- Update Custom.JS to include by default color changes for invalid, expired, or Valid information (Including probation)
+- Create a Login System (With Custom Characters too!)
+- Create a Basic Penal Code
+- Create an organized CAD system
+- <style color="0xFF0000">WARNING</style> This system does not use sessions! If you go anywhere but the cad you _might_ have to login again until I do something session wise or update how the character system works.
