@@ -148,6 +148,11 @@
         "maxFine": 238
       },
       {
+        "name": "Failure to Yield to Stopped Vehicle with Flashing Signals",
+        "minFine": 238,
+        "maxFine": 238
+      },
+      {
         "name": "Failure To Yield To Emergency Vehicle",
         "minFine": 238,
         "maxFine": 238
@@ -251,6 +256,11 @@
         "name": "Failure To Secure Load To Vehicle",
         "minFine": 200,
         "maxFine": 300
+      },
+      {
+        "name": "Failure To Display License Plate",
+        "minFine": 197,
+        "maxFine": 197
       }
     ]
   },
@@ -276,11 +286,6 @@
         "name": "Expired Vehicle Registration",
         "minFine": 30,
         "maxFine": 100
-      },
-      {
-        "name": "Failure To Display License Plate",
-        "minFine": 197,
-        "maxFine": 197
       },
       {
         "name": "License Not Carried",

@@ -73,22 +73,6 @@
         "minMonths": 0,
         "maxMonths": 12,
         "probation": 0.4
-      },
-      {
-        "name": "Driving Under The Influence",
-        "minFine": 390,
-        "maxFine": 1000,
-        "minMonths": 0,
-        "maxMonths": 12,
-        "probation": 0.4
-      },
-      {
-        "name": "Failure To Submit To Field Sobriety Test",
-        "minFine": 390,
-        "maxFine": 1000,
-        "minMonths": 0,
-        "maxMonths": 9,
-        "probation": 0.4
       }
     ]
   },
@@ -118,14 +102,115 @@
         "minMonths": 12,
         "maxMonths": 120,
         "probation": 0.4
+      }
+    ]
+  },
+  {
+    "name": "DWI / DUI",
+    "charges": [
+      {
+        "name": "Driving Under The Influence (1st Offence) (0.08 - 0.15)",
+        "minFine": 390,
+        "maxFine": 1000,
+        "minMonths": 0,
+        "maxMonths": 6,
+        "probation": 0.4
+      },
+      {
+        "name": "Driving While Intoxicated (1st Offence) (0.16 <)",
+        "minFine": 1000,
+        "maxFine": 1500,
+        "minMonths": 0,
+        "maxMonths": 6,
+        "probation": 0.3
+      },
+      {
+        "name": "Driving Under The Influence (2nd Offence) (0.08 - 0.15)",
+        "minFine": 1250,
+        "maxFine": 1700,
+        "minMonths": 0,
+        "maxMonths": 6,
+        "probation": 0.3
+      },
+      {
+        "name": "Driving While Intoxicated (2nd Offence) (0.16 <)",
+        "minFine": 1500,
+        "maxFine": 2000,
+        "minMonths": 0,
+        "maxMonths": 6,
+        "probation": 0.2
+      },
+      {
+        "name": "Driving Under The Influence (3rd Offence) (0.08 - 0.15)",
+        "minFine": 1700,
+        "maxFine": 1390,
+        "minMonths": 12,
+        "maxMonths": 24,
+        "probation": 0.2
+      },
+      {
+        "name": "Driving While Intoxicated (3rd Offence) (0.16 <)",
+        "minFine": 2000,
+        "maxFine": 2500,
+        "minMonths": 12,
+        "maxMonths": 36,
+        "probation": 0.1
+      },
+      {
+        "name": "Driving Under The Influence (3rd+ Offence) (0.08 - 0.15)",
+        "minFine": 3000,
+        "maxFine": 4000,
+        "minMonths": 48,
+        "maxMonths": 60,
+        "probation": 0.1
+      },
+      {
+        "name": "Driving While Intoxicated (3rd+ Offence) (0.16 <)",
+        "minFine": 4000,
+        "maxFine": 4500,
+        "minMonths": 60,
+        "maxMonths": 72,
+        "probation": 0.0
+      },
+      {
+        "name": "Driving Under The Influence Of Narcotics",
+        "minFine": 1500,
+        "maxFine": 2000,
+        "minMonths": 0,
+        "maxMonths": 6,
+        "probation": 0.4
+      },
+      {
+        "name": "Driving While Intoxicated with Narcotics (2+)",
+        "minFine": 1700,
+        "maxFine": 2500,
+        "minMonths": 0,
+        "maxMonths": 6,
+        "probation": 0.4
       },
       {
         "name": "Driving Under The Influence Causing Injury Or Death",
-        "minFine": 1000,
-        "maxFine": 5000,
-        "minMonths": 12,
-        "maxMonths": 48,
-        "probation": 0.4
+        "minFine": 5000,
+        "maxFine": 6700,
+        "minMonths": 48,
+        "maxMonths": 60,
+        "probation": 0.2
+      },
+      {
+        "name": "Driving While Intoxicated Causing Injury Or Death",
+        "minFine": 8000,
+        "maxFine": 10000,
+        "minMonths": 60,
+        "maxMonths": 84,
+        "probation": 0.1
+      },
+      {
+        "name": "Driving Under The Influence Of Narcotics Causing Injury Or Death",
+        "minFine": 5000,
+        "maxFine": 6700,
+        "minMonths": 48,
+        "maxMonths": 60,
+        "probation": 0.1
       }
     ]
   },
@@ -260,6 +345,14 @@
         "maxFine": 2000,
         "minMonths": 0,
         "maxMonths": 6,
+        "probation": 0.4
+      },
+      {
+        "name": "Domestic Battery",
+        "minFine": 1000,
+        "maxFine": 2000,
+        "minMonths": 0,
+        "maxMonths": 12,
         "probation": 0.4
       },
       {
@@ -402,6 +495,14 @@
       },
       {
         "name": "Failure To Comply With A Lawful Order",
+        "minFine": 100,
+        "maxFine": 1000,
+        "minMonths": 0,
+        "maxMonths": 6,
+        "probation": 0.4
+      },
+      {
+        "name": "Failure To Sign a Citation",
         "minFine": 100,
         "maxFine": 1000,
         "minMonths": 0,
@@ -768,6 +869,38 @@
         "minMonths": 6,
         "maxMonths": 12,
         "probation": 0.4
+      },
+      {
+        "name": "Failure to Appear",
+        "minFine": 100,
+        "maxFine": 500,
+        "minMonths": 6,
+        "maxMonths": 12,
+        "probation": 0.4
+      },
+      {
+        "name": "Outside Agency Warrant (Felony w/ Out Of State Extradition)",
+        "minFine": 0,
+        "maxFine": 0,
+        "minMonths": 0,
+        "maxMonths": 0,
+        "probation": 0.0
+      },
+      {
+        "name": "Outside Agency Warrant (Felony w/ In-State Extradition)",
+        "minFine": 0,
+        "maxFine": 0,
+        "minMonths": 0,
+        "maxMonths": 0,
+        "probation": 0.0
+      },
+      {
+        "name": "Outside Agency Warrant (Misdemeanor w/ In-State Extradition)",
+        "minFine": 0,
+        "maxFine": 0,
+        "minMonths": 0,
+        "maxMonths": 0,
+        "probation": 0.0
       }
     ]
   },
