@@ -2,8 +2,11 @@
 using LSPD_First_Response.Mod.API;
 using System.IO;
 using System;
+using System.Threading;
 
 namespace ExternalPoliceComputer {
+    private Timer timer;
+    private int intervalInMilliseconds = 15000; // Change this to your desired interval
     public class Main : Plugin {
 
         public override void Initialize() {
@@ -36,6 +39,34 @@ namespace ExternalPoliceComputer {
                 }
             }
         }
+
+        public InfiniteLoopTimerExample()
+        {
+            // Create a Timer with a callback function
+            timer = new Timer(TimerCallback, null, 0, intervalInMilliseconds);
+
+            // You can stop the timer at any time by calling timer.Change
+            // with dueTime and period set to Timeout.Infinite
+            // For example, to stop the timer after 10 seconds:
+            // timer.Change(10000, Timeout.Infinite);
+        }
+
+        private void TimerCallback(object state)
+        {
+            // This method will be called repeatedly at the specified interval
+            updateWorldPeds();
+            updateWorldCars();
+        }
+
+        public static void Main(string[] args)
+        {
+            InfiniteLoopTimerExample timerExample = new InfiniteLoopTimerExample();
+
+            // Keep the application running
+            Console.WriteLine("Ped's and Vehicles Will Update every 15 Seconds");
+            Console.ReadLine();
+        }
+    }
 
         private static void Events_OnPedPresentedId(Ped ped, LHandle pullover, LHandle pedInteraction) {
             updateWorldPeds();
