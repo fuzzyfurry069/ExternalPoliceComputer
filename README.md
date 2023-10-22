@@ -42,4 +42,5 @@ A Police Computer Plugin and Server for LSPDFR.
 - Create a Login System (With Custom Characters too!)
 - Create a Basic Penal Code
 - Create an organized CAD system
-- <strong>WARNING</strong>This system does not use sessions! If you go anywhere but the cad you _might_ have to login again until I do something session wise or update how the character system works.
+- <strong>WARNING</strong>
+This system does not use sessions! If you go anywhere but the cad you _might_ have to login again until I do something session wise or update how the character system works.
